@@ -69,7 +69,7 @@ body {
 
 .home-first-section {
     min-height: 700px;
-    background-image: url("/images/homemainimg.jpg ");
+    background-image: url(/images/homemainimg.webp );
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -116,7 +116,7 @@ body {
 .services-first-section {
     margin-top: 200px;
     min-height: 512px;
-    background-image: url(/images/pink-bg.png);
+    background-image: url(/images/pink-bg.webp);
     background-position: initial;
     background-repeat: no-repeat;
 }
@@ -338,7 +338,7 @@ footer .email {
 /*styling for provider header*/
 .provider-main-header {
     min-height: 490px;
-    background-image: url(/images/provider-header.png);
+    background-image: url(/images/provider-header.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
