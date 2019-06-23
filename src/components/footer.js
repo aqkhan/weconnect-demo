@@ -5,14 +5,14 @@ const footer = () => {
         <footer>
         <div className="container">
             <div className="row">
-                <div className="col-md-3">
+                <div className="col-md-4">
                     <img src="/images/logo_footer.png"/>
                     <p className="email lato-regular">
                         info@weconnectrecovery.com
                     </p>
                     <p className="number lato-regular">720.661.2231</p>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-2">
                     <h1 className="lato-regular">Useful Links</h1>
                     <ul>
                         <li className="lato-regular"><a href="#">Home</a></li>
@@ -24,7 +24,7 @@ const footer = () => {
                     </ul>
                 </div>
 
-                <div className="col-md-3">
+                <div className="col-md-2">
                     <h1 className="lato-regular">About us</h1>
                     <ul>
                         <li className="lato-regular"><a href="#">About us</a></li>
@@ -34,7 +34,7 @@ const footer = () => {
                         <li className="lato-regular"><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div className="col-md-3">
+                <div className="col-md-4">
                     <h1 className="lato-regular">Our Address</h1>
                     <p className="lato-regular adress">
                         Galvanize 111 S Jackson St. ,<br/>

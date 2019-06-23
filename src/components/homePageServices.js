@@ -3,29 +3,11 @@ import React from "react";
 const homePageServices = () => {
     return (
         <section className="home-second-section">
-            <div className="services-first-section">
+            <div>
                 <div className="container">
-
                     <div className="row service-card">
                         <div className="col-md-6">
-
-                            <img src="/images/relaspe.png" className="card-image" loading="lazy"/>
-                        </div>
-                        <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
-                            <h1 className="lato-bol">Relapse prevention in
-                                the palm of your hand
-                            </h1>
-                            <p className="lato-regular">Developed by a team of data scientists and treatment experts
-                                based on techniques showing
-                                a 50% improvement in abstinence vs. traditional treatment methods, WEconnect helps you
-                                stay connected and accountable on your recovery journey.</p>
-                        </div>
-                    </div>
-
-
-                    <div className="row service-card">
-                        <div className="col-md-6">
-                            <img src="/images/home-service-two.png" className="card-image"/>
+                            <img src="/images/home-service-two.png" className="card-image-two"/>
                         </div>
                         <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
                             <div className="heading-with-icon d-flex">
@@ -72,13 +54,13 @@ const homePageServices = () => {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/laptop-srvice.png" className="card-image" loading="lazy"/>
+                            <img src="/images/laptop-srvice.png" className="card-image-two" loading="lazy"/>
                         </div>
                     </div>
 
                     <div className="row service-card">
                         <div className="col-md-6">
-                            <img src="/images/s-img-4.png" className="card-image" loading="lazy"/>
+                            <img src="/images/s-img-4.png" className="card-image-two" loading="lazy"/>
                         </div>
                         <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
                             <div className="heading-with-icon d-flex">
