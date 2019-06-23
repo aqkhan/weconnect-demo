@@ -7,17 +7,17 @@ const Header = ({siteTitle}) => (
             <div className="col-md-12 d-flex align-items-center">
                 <div className="col-md-6">
                     <div className="logo-div">
-                        <img src="/images/logo.png"/>
+                        <Link to="/">   <img src="/images/logo.png"/></Link>
                     </div>
                 </div>
                 <div className="col-md-6">
                     <div className="nav-div d-flex justify-content-end">
                         <ul>
                             <li className="float-left lato-regular">FAMILIES</li>
-                            <li className="float-left lato-regular">PROVIDERS</li>
+                            <li className="float-left lato-regular"><Link to="/providers">PROVIDERS</Link></li>
                             <li className="float-left lato-regular">RESEARCH</li>
                             <li className="float-left lato-regular">ABOUT</li>
-                            <li className="float-left lato-regular">REQUEST A DEMO</li>
+                            <li className="float-left lato-regular nav-btn">REQUEST A DEMO</li>
                         </ul>
                     </div>
                 </div>

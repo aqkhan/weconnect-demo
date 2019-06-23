@@ -9,7 +9,7 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-
+    font-family: 'Lato', sans-serif !important;
 }
 
 .main-nav {
@@ -41,7 +41,7 @@ body {
     text-decoration: none !important;
 }
 
-.nav-div ul li:last-child {
+.nav-div ul .nav-btn {
     background-color: #6b3248;
     border-radius: 30px;
     border-bottom: none;
@@ -55,6 +55,14 @@ body {
 .lato-bold {
     font-family: 'Lato', sans-serif !important;
     font-weight: bold;
+}
+
+.content h1{
+    font-weight: bold;
+}
+.content p{
+    font-weight: bold;
+    font-weight: 300;
 }
 
 /* styling for homepage starts */
@@ -357,4 +365,9 @@ footer .email {
  background-color: #f6f6f6;
     min-height: 678px;
 ;
+}
+@media (min-width: 1366px) {
+    .container-fluid{
+        max-width: 1608px;
+    }
 }
