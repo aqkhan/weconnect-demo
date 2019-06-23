@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84a37031-55d8-4d3a-8987-451d3a627b28" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/1.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/2.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/3.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/4.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/5.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/Self-care.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/WEC_Providers.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/WEC_Research.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/WEC_Team-About.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/science-photo-one.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/science-photo-three.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/science-photo-two.webp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/about.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/pages/research.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/components/providerPageMainComponent.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/layout.css" afterPath="$PROJECT_DIR$/src/components/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/navigation.js" afterPath="$PROJECT_DIR$/src/components/navigation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/providerMain.js" afterPath="$PROJECT_DIR$/src/components/providerMain.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/families.js" afterPath="$PROJECT_DIR$/src/pages/families.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pages/providers.js" afterPath="$PROJECT_DIR$/src/pages/providers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/mobile.webp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/homeMain.js" afterPath="$PROJECT_DIR$/src/components/homeMain.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,14 +28,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="providers.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="providers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/providers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="182" lean-forward="false" selection-start-line="10" selection-start-column="182" selection-end-line="10" selection-end-column="182" />
+            <state relative-caret-position="330">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="homeMain.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/homeMain.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -125,16 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/layout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="navigation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/navigation.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -163,7 +144,22 @@
       <find>services-first-sectio</find>
       <find>home-about-section</find>
       <find>.provider-main-header .provider-h</find>
+      <find>m</find>
+      <find>mo</find>
+      <find>mobi</find>
+      <find>mobil</find>
+      <find>mobile</find>
+      <find>mobile.</find>
+      <find>mobile.p</find>
+      <find>mobile.pn</find>
+      <find>mobile.png</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/components</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -179,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/components/aboutPartners.js" />
         <option value="$PROJECT_DIR$/gatsby-config.js" />
         <option value="$PROJECT_DIR$/src/components/layout.js" />
-        <option value="$PROJECT_DIR$/src/components/homeMain.js" />
         <option value="$PROJECT_DIR$/src/components/detailComponent.js" />
         <option value="$PROJECT_DIR$/src/components/homePageServices.js" />
         <option value="$PROJECT_DIR$/src/components/homeNews.js" />
@@ -190,6 +185,7 @@
         <option value="$PROJECT_DIR$/src/pages/about.js" />
         <option value="$PROJECT_DIR$/src/pages/research.js" />
         <option value="$PROJECT_DIR$/src/pages/providers.js" />
+        <option value="$PROJECT_DIR$/src/components/homeMain.js" />
       </list>
     </option>
   </component>
@@ -405,12 +401,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561284318199</updated>
-      <workItem from="1561284319365" duration="21613000" />
+      <workItem from="1561284319365" duration="21851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21613000" />
+    <option name="totallyTimeSpent" value="21851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1790" height="1177" extended-state="0" />
@@ -551,14 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/homeMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="91" lean-forward="false" selection-start-line="14" selection-start-column="91" selection-end-line="14" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/homeAboutUs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -683,11 +671,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/providers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="182" lean-forward="false" selection-start-line="10" selection-start-column="182" selection-end-line="10" selection-end-column="182" />
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/homeMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="49" lean-forward="false" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
