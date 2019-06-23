@@ -6,10 +6,10 @@ const homePageServices = () => {
             <div>
                 <div className="container">
                     <div className="row service-card">
-                        <div className="col-md-6">
+                        <div className="col-md-6" data-aos="fade-right">
                             <img src="/images/home-service-two.webp" className="card-image-two" alt=""/>
                         </div>
-                        <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
+                        <div className="col-md-6 d-flex align-content-center justify-content-center flex-column" data-aos="fade-left">
                             <div className="heading-with-icon d-flex">
                                 <div className="service-icon-div">
                                     <img src="/images/s-icon-1.webp" loading="lazy" alt=""/>
@@ -35,7 +35,7 @@ const homePageServices = () => {
 
                     <div className="row service-card">
 
-                        <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
+                        <div className="col-md-6 d-flex align-content-center justify-content-center flex-column" data-aos="fade-right">
                             <div className="heading-with-icon d-flex">
                                 <div className="service-icon-div">
                                     <img src="/images/s-icon-2.webp" loading="lazy" alt=""/>
@@ -53,16 +53,16 @@ const homePageServices = () => {
                                 </button>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-6" data-aos="fade-left">
                             <img src="/images/laptop-srvice.webp" className="card-image-two" loading="lazy" alt=""/>
                         </div>
                     </div>
 
                     <div className="row service-card">
-                        <div className="col-md-6">
+                        <div className="col-md-6" data-aos="fade-right">
                             <img src="/images/s-img-4.webp" className="card-image-two" loading="lazy" alt=""/>
                         </div>
-                        <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
+                        <div className="col-md-6 d-flex align-content-center justify-content-center flex-column" data-aos="fade-left">
                             <div className="heading-with-icon d-flex">
                                 <div className="service-icon-div">
                                     <img src="/images/s-icon-3.webp" alt=""/>

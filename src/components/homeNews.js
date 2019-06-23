@@ -4,7 +4,7 @@ const homeNews = () => {
     return (
         <section className="home-news-section">
             <div className="col-md-12 d-flex p-0">
-                <div className="col-md-6 d-flex justify-content-end align-items-center p-0">
+                <div className="col-md-6 d-flex justify-content-end align-items-center p-0" data-aos="fade-right">
                     <div className="content-div">
                         <h1 className="lato-regular">
                             WEconnect in the news
@@ -15,7 +15,7 @@ const homeNews = () => {
                         </p>
                     </div>
                 </div>
-                <div className="col-md-6 p-0 logo-col">
+                <div className="col-md-6 p-0 logo-col" data-aos="fade-left">
 
                         <img src="/images/logo-pic.webp" loading="lazy" alt=""/>
                 </div>

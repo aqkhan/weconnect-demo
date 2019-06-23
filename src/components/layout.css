@@ -202,7 +202,7 @@ body {
 
 .home-about-section {
     height: 780px;
-    background-image: url(/images/home-about.png);
+    background-image: url(/images/home-about.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
