@@ -341,12 +341,16 @@ footer .email {
     background-image: url(/images/provider-header.webp);
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .provider-main-header .provider-h {
     margin: 0 auto;
     text-align: center;
-    padding-top: 170px;
+    padding-top: 72px;
 }
 
 .provider-main-header .provider-h h1 {

@@ -13,10 +13,10 @@ const Header = ({siteTitle}) => (
                 <div className="col-md-6">
                     <div className="nav-div d-flex justify-content-end">
                         <ul>
-                            <li className="float-left lato-regular">FAMILIES</li>
+                            <li className="float-left lato-regular"><Link to="/families">FAMILIES</Link></li>
                             <li className="float-left lato-regular"><Link to="/providers">PROVIDERS</Link></li>
-                            <li className="float-left lato-regular">RESEARCH</li>
-                            <li className="float-left lato-regular">ABOUT</li>
+                            <li className="float-left lato-regular"><Link to="/research">RESEARCH</Link></li>
+                            <li className="float-left lato-regular"><Link to="/about">ABOUT</Link></li>
                             <li className="float-left lato-regular nav-btn">REQUEST A DEMO</li>
                         </ul>
                     </div>
