@@ -7,7 +7,7 @@ import Partners from "../components/aboutPartners"
 
 const Families = () => (
     <Layout>
-        <SEO title="Providers"/>
+        <SEO title="Families"/>
         <Main/>
         <div className="provider-detail-section">
             <DetailCard img={"/images/laptop-2.webp"} swap={true}  content={"<h1>Utilize our powerful, data-driven dashboard.</h1><p>Designed and built specificially for treatment centers to easily manage recovery groups. This powerful dashboard includes a personalized risk score for each patient ‐ plus critical data on patients, groups or multiple treatment centers all in one place.</p>"}/>
