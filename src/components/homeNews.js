@@ -17,7 +17,7 @@ const homeNews = () => {
                 </div>
                 <div className="col-md-6 p-0 logo-col">
 
-                        <img src="/images/logo-pic.png"/>
+                        <img src="/images/logo-pic.png" loading="lazy"/>
                 </div>
             </div>
         </section>

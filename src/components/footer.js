@@ -6,7 +6,7 @@ const footer = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-3">
-                    <p>logo here</p>
+                    <img src="/images/logo_footer.png"/>
                     <p className="email lato-regular">
                         info@weconnectrecovery.com
                     </p>

@@ -9,7 +9,7 @@ const homePageServices = () => {
                     <div className="row service-card">
                         <div className="col-md-6">
 
-                            <img src="/images/relaspe.png" className="card-image"/>
+                            <img src="/images/relaspe.png" className="card-image" loading="lazy"/>
                         </div>
                         <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
                             <h1 className="lato-bol">Relapse prevention in
@@ -30,7 +30,7 @@ const homePageServices = () => {
                         <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
                             <div className="heading-with-icon d-flex">
                                 <div className="service-icon-div">
-                                    <img src="/images/s-icon-1.png"/>
+                                    <img src="/images/s-icon-1.png" loading="lazy"/>
                                 </div>
                                 <h1 className="lato-bol">Stay on track, stay connected</h1>
 
@@ -56,7 +56,7 @@ const homePageServices = () => {
                         <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
                             <div className="heading-with-icon d-flex">
                                 <div className="service-icon-div">
-                                    <img src="/images/s-icon-2.png"/>
+                                    <img src="/images/s-icon-2.png" loading="lazy"/>
                                 </div>
                                 <h1 className="lato-bol">Support from your recovery team</h1>
 
@@ -72,13 +72,13 @@ const homePageServices = () => {
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img src="/images/laptop-srvice.png" className="card-image"/>
+                            <img src="/images/laptop-srvice.png" className="card-image" loading="lazy"/>
                         </div>
                     </div>
 
                     <div className="row service-card">
                         <div className="col-md-6">
-                            <img src="/images/s-img-4.png" className="card-image"/>
+                            <img src="/images/s-img-4.png" className="card-image" loading="lazy"/>
                         </div>
                         <div className="col-md-6 d-flex align-content-center  justify-content-center flex-column">
                             <div className="heading-with-icon d-flex">
