@@ -6,7 +6,7 @@ const footer = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
-                    <img src="/images/logo_footer.png"/>
+                    <img src="/images/logo_footer.png" alt=""/>
                     <p className="email lato-regular">
                         info@weconnectrecovery.com
                     </p>
@@ -15,23 +15,23 @@ const footer = () => {
                 <div className="col-md-2">
                     <h1 className="lato-regular">Useful Links</h1>
                     <ul>
-                        <li className="lato-regular"><a href="#">Home</a></li>
-                        <li className="lato-regular"><a href="#">Families</a></li>
-                        <li className="lato-regular"><a href="#">Providers</a></li>
-                        <li className="lato-regular"><a href="#">Research</a></li>
-                        <li className="lato-regular"><a href="#">Download Apps</a></li>
-                        <li className="lato-regular"><a href="#">Press</a></li>
+                        <li className="lato-regular"> Home</li>
+                        <li className="lato-regular">Families</li>
+                        <li className="lato-regular">Providers</li>
+                        <li className="lato-regular">Research</li>
+                        <li className="lato-regular">Download Apps</li>
+                        <li className="lato-regular">Press</li>
                     </ul>
                 </div>
 
                 <div className="col-md-2">
                     <h1 className="lato-regular">About us</h1>
                     <ul>
-                        <li className="lato-regular"><a href="#">About us</a></li>
-                        <li className="lato-regular"><a href="#">Team</a></li>
-                        <li className="lato-regular"><a href="#">Investors</a></li>
-                        <li className="lato-regular"><a href="#">Cereers</a></li>
-                        <li className="lato-regular"><a href="#">Contact</a></li>
+                        <li className="lato-regular">About us</li>
+                        <li className="lato-regular">Team</li>
+                        <li className="lato-regular">Investors</li>
+                        <li className="lato-regular">Cereers</li>
+                        <li className="lato-regular">Contact</li>
                     </ul>
                 </div>
                 <div className="col-md-4">

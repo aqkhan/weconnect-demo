@@ -7,7 +7,7 @@ const Header = ({siteTitle}) => (
             <div className="col-md-12 d-flex align-items-center">
                 <div className="col-md-6">
                     <div className="logo-div">
-                        <Link to="/">   <img src="/images/logo.png"/></Link>
+                        <Link to="/">   <img src="/images/logo.png" alt=""/></Link>
                     </div>
                 </div>
                 <div className="col-md-6">

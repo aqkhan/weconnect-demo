@@ -6,9 +6,9 @@ const homeAbout = () => {
             <div className="col-md-12 d-flex">
                 <div className="col-md-6 d-flex justify-content-end flex-column">
                     <div className="iframe-div">
-                        <iframe height="600" src="https://www.youtube.com/embed/2xfm8RlTGTo" frameborder="0"
+                        <iframe height="600" src="https://www.youtube.com/embed/2xfm8RlTGTo" frameBorder="0"
                                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen/>
+                                allowFullScreen title="title"/>
                     </div>
 
                 </div>

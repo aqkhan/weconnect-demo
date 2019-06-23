@@ -12,7 +12,7 @@ const homeMain = () => {
                     <button className="btn home-main-btn">REQUEST A DEMO</button>
                 </div>
                 <div className="home-mobile-div">
-                    <img src="/images/mobile.png" loading="lazy"/>
+                    <img src="/images/mobile.png" loading="lazy" alt=""/>
                 </div>
             </div>
         </div>

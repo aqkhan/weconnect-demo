@@ -4,7 +4,7 @@ const partners = () =>{
     return(
         <div className="partner-section">
             <div className="col-md-8 partner-bg d-flex justify-content-center align-items-center ">
-                <img src="/images/partner-img.png"/>
+                <img src="/images/partner-img.png" alt=""/>
             </div>
         </div>
     )
