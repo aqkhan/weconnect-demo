@@ -29,16 +29,16 @@ body {
     font-size: 14px;
     color: #dfdfdf;
     border-bottom: 2px solid transparent;
-    padding: 8px 10px;
     margin-right: 40px;
     cursor: pointer;
 }
-.nav-div ul li:hover{
+.nav-div ul li a:hover{
     border-bottom: 2px solid #dfdfdf;
 }
 .nav-div ul li a {
     color: white !important;
     text-decoration: none !important;
+    padding: 8px 10px;
 }
 
 .nav-div ul .nav-btn {
@@ -72,6 +72,7 @@ body {
     background-image: url(/images/homemainimg.webp );
     background-size: cover;
     background-repeat: no-repeat;
+    background-color: #963d63;
 }
 
 .home-first-section h1 {
@@ -244,7 +245,7 @@ body {
 
 .home-news-section .content-div {
     width: 60%;
-
+    padding-right: 39px;
 }
 
 .home-news-section .content-div h1 {
@@ -338,13 +339,13 @@ footer .email {
 /*styling for provider header*/
 .provider-main-header {
     min-height: 490px;
-    background-image: url(/images/provider-header.webp);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: #963d63;
 }
 
 .provider-main-header .provider-h {
