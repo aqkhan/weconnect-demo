@@ -17,7 +17,7 @@ const IndexPage = ({data}) => {
 export default IndexPage
 
 export const PageQuery = graphql`
-    query PageQuery {
+    query HomepageQuery {
         contentfulPage ( slug: { eq: "homepage" } ) {
             title
             slug

@@ -3,20 +3,77 @@ import Layout from "../components/layout"
 import SEO from "../components/seo";
 import Main from "../components/providerMain";
 import DetailCard from "../components/detailComponent";
+import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
-const Families = () => (
-    <Layout>
-        <SEO title="Families"/>
-        <Main title="Supporting your recovery journey" image="/images/provider-header.webp"/>
-        <div className="provider-detail-section">
-            <DetailCard img={"/images/1.webp"} swap={true}  content={"<h1>Be a part of something profound</h1><p>Our mission is to support inpatient, outpatient, healthcare systems, sober living programs and partners to save lives. We achieve this by reducing relapse and making recovery fun, accountable and keeping individuals connected to community support.</p>"}/>
-            <DetailCard img={"/images/2.webp"} swap={false} content={"<h1>Stay in recovery with proven techniques</h1><p>Reduce risk of relapse by 50% vs. traditional treatment methods </p>"}/>
-            <DetailCard img={"/images/3.webp"} swap={true} content={"<h1>Spend time on treatment, not guesswork</h1><p>Instantly be alerted to changes in patient routines, achievements and more. Track group and individual progress, and review gaps in scheduling to recommend care.</p>"}/>
-            <DetailCard img={"/images/4.webp"} swap={false} content={"<h1>Making recovery fun and supportive</h1><p>WEconnect's app supports you in your recovery journey with positive reinforcement and milestone celebrations.</p>"}/>
-            <DetailCard img={"/images/5.webp"} swap={true} content={"<h1>Supports all treatment plans</h1><p>WEconnect is program-agnostic, meaning that no matter how you're managing your recovery, WE are here to help </p>"}/>
-        </div>
+const Families = ({ data }) => {
 
-    </Layout>
-)
+    const pageData = data.contentfulPage;
+    console.log('data', pageData);
+    const contentMarkup = documentToHtmlString(JSON.parse(pageData.content.content));
+
+    return (
+        <Layout>
+            <SEO title="Families" />
+            <Main title={contentMarkup.replace(/(<([^>]+)>)/ig,"")} image={"https:" + pageData.headerBackground.file.url} />
+            <div className="provider-detail-section">
+                {
+                    pageData.pageBlock.map((single, i) => (
+                        <DetailCard key={i} img={"https:" + single.image.file.url} swap={ i % 2 === 0 } content={documentToHtmlString(JSON.parse(single.content.content))} />
+                    ))
+                }
+            </div>
+
+        </Layout>
+    );
+}
 
 export default Families;
+
+export const PageQuery = graphql`
+    query FamiliespageQuery {
+        contentfulPage ( slug: { eq: "families" } ) {
+            title
+            slug
+            content {
+                content
+            }
+            headerBackground {
+                file {
+                    url
+                }
+            }
+            headerBanner {
+                file {
+                    url
+                }
+            }
+            featureImage {
+                file {
+                    url
+                }
+            }
+            featureText {
+                featureText
+            }
+            pageBlock {
+                title
+                content { 
+                    content
+                }
+                image {
+                    file {
+                        url
+                    }
+                }
+                linkText
+                linkTo
+                icon {
+                    file {
+                        url
+                    }
+                }
+            }
+        }
+    }
+`
+
