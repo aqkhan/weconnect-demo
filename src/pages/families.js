@@ -8,12 +8,11 @@ import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 const Families = ({ data }) => {
 
     const pageData = data.contentfulPage;
-    console.log('data', pageData);
     const contentMarkup = documentToHtmlString(JSON.parse(pageData.content.content));
 
     return (
         <Layout>
-            <SEO title="Families" />
+            <SEO title={pageData.title} />
             <Main title={contentMarkup.replace(/(<([^>]+)>)/ig,"")} image={"https:" + pageData.headerBackground.file.url} />
             <div className="provider-detail-section">
                 {

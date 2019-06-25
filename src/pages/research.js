@@ -7,12 +7,11 @@ import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 import { graphql } from 'gatsby';
 
 const Families = ({ data }) => {
-    console.log(data);
     const pageData = data.contentfulPage;
     const contentMarkup = documentToHtmlString(JSON.parse(pageData.content.content));
     return (
         <Layout>
-            <SEO title="Families" />
+            <SEO title={pageData.title} />
             <Main title={contentMarkup.replace(/(<([^>]+)>)/ig, "")} image={"https:" + pageData.headerBackground.file.url} />
             <div className="provider-detail-section">
                 {

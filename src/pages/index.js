@@ -5,12 +5,12 @@ import Layout from "../components/layout"
 
 import SEO from "../components/seo"
 
-const IndexPage = ({data}) => {
+const IndexPage = ({ data }) => {
     return (
         <Layout>
-        <SEO title="Home"/>
-        <HomeMainComponent data={data.contentfulPage} />
-    </Layout>
+            <SEO title={data.contentfulPage.title} />
+            <HomeMainComponent data={data.contentfulPage} />
+        </Layout>
     );
 }
 

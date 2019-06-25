@@ -7,7 +7,6 @@ import HomeDetail from "./detailComponent";
 import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
 const homeMainComponent = ({data}) => {
-    console.log('data', data);
     const featureTextMarkup = documentToHtmlString(JSON.parse(data.featureText.featureText));
     return (
         <div>

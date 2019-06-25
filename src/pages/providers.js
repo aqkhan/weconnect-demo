@@ -12,7 +12,7 @@ const Families = ({ data }) => {
     const contentMarkup = documentToHtmlString(JSON.parse(pageData.content.content));
     return (
         <Layout>
-            <SEO title="Providers" />
+            <SEO title={pageData.title} />
             <Main title={contentMarkup.replace(/(<([^>]+)>)/ig, "")} image={"https:" + pageData.headerBackground.file.url} />
             <div className="provider-detail-section">
                 {
