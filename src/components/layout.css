@@ -156,6 +156,11 @@ body {
 
 }
 
+.service-card ul li p {
+    display: inline-block;
+    padding-top: 0;
+}
+
 .service-card .card-image {
     width: 500px;
 }
@@ -191,7 +196,7 @@ body {
     text-align: center;
     padding: 10px 20px;
     margin-top: 28px;
-
+    color: #fff !important;
 }
 
 .home-service-btn:hover {

@@ -22,7 +22,7 @@ export const PageQuery = graphql`
             title
             slug
             content {
-                json
+                content
             }
             headerBackground {
                 file {
@@ -40,12 +40,12 @@ export const PageQuery = graphql`
                 }
             }
             featureText {
-                json
+                featureText
             }
             pageBlock {
                 title
                 content { 
-                    json
+                    content
                 }
                 image {
                     file {

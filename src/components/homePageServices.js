@@ -1,87 +1,33 @@
 import React from "react";
+import { documentToHtmlString } from '@contentful/rich-text-html-renderer';
 
-const homePageServices = () => {
+const homePageServices = ({pageBlocks}) => {
     return (
         <section className="home-second-section">
             <div>
                 <div className="container">
-                    <div className="row service-card">
-                        <div className="col-md-6" data-aos="fade-right">
-                            <img src="/images/home-service-two.webp" className="card-image-two" alt=""/>
-                        </div>
-                        <div className="col-md-6 d-flex align-content-center justify-content-center flex-column" data-aos="fade-left">
-                            <div className="heading-with-icon d-flex">
-                                <div className="service-icon-div">
-                                    <img src="/images/s-icon-1.webp" loading="lazy" alt=""/>
+                    {
+                        pageBlocks.map((single, i) => (
+                            <div className="row service-card" key={i}>
+                                <div className="col-md-6" data-aos="fade-right">
+                                    <img src={single.image.file.url} className="card-image-two" alt=""/>
                                 </div>
-                                <h1 className="lato-bol">Stay on track, stay connected</h1>
+                                <div className="col-md-6 d-flex align-content-center justify-content-center flex-column" data-aos="fade-left">
+                                    <div className="heading-with-icon d-flex">
+                                        <div className="service-icon-div">
+                                            <img src={ "https:" + single.icon.file.url } loading="lazy" alt=""/>
+                                        </div>
+                                        <h1 className="lato-bol">{ single.title }</h1>
 
-                            </div>
-                            <p className="lato-regular">The WEconnect app helps you schedule routines to stay on track
-                                for recovery.</p>
-
-                            <ul>
-                                <li className="lato-regular"> Gentle reminders</li>
-                                <li className="lato-regular">Rewards for completion of recovery activities</li>
-                                <li className="lato-regular">GPS verification for routine locations</li>
-                            </ul>
-                            <div>
-                                <button className="btn home-service-btn lato-regular">Patients & Families: Learn More
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div className="row service-card">
-
-                        <div className="col-md-6 d-flex align-content-center justify-content-center flex-column" data-aos="fade-right">
-                            <div className="heading-with-icon d-flex">
-                                <div className="service-icon-div">
-                                    <img src="/images/s-icon-2.webp" loading="lazy" alt=""/>
+                                    </div>
+                                    <div dangerouslySetInnerHTML={{__html: documentToHtmlString(JSON.parse(single.content.content))}} />
+                                    <div>
+                                        <a href={single.linkTo} className="btn home-service-btn lato-regular">{ single.linkText }</a>
+                                    </div>
                                 </div>
-                                <h1 className="lato-bol">Support from your recovery team</h1>
-
                             </div>
-                            <p className="lato-regular">Developed by a team of data scientists and treatment experts and
-                                based on techniques showing a 50% improvement in abstinence vs. traditional treatment
-                                methods, WEconnect helps you stay connected and accountable on your recovery
-                                journey.</p>
-
-                            <div>
-                                <button className="btn home-service-btn lato-regular">PProviders: Sign Up Now
-                                </button>
-                            </div>
-                        </div>
-                        <div className="col-md-6" data-aos="fade-left">
-                            <img src="/images/laptop-srvice.webp" className="card-image-two" loading="lazy" alt=""/>
-                        </div>
-                    </div>
-
-                    <div className="row service-card">
-                        <div className="col-md-6" data-aos="fade-right">
-                            <img src="/images/s-img-4.webp" className="card-image-two" loading="lazy" alt=""/>
-                        </div>
-                        <div className="col-md-6 d-flex align-content-center justify-content-center flex-column" data-aos="fade-left">
-                            <div className="heading-with-icon d-flex">
-                                <div className="service-icon-div">
-                                    <img src="/images/s-icon-3.webp" alt=""/>
-                                </div>
-                                <h1 className="lato-bol">Earn gift cards by completing routines</h1>
-
-                            </div>
-                            <p className="lato-regular">By staying on track with your recovery plan, you can earn gift
-                                cards in the app that you can use immediately! Why? Studies show that by sticking to a
-                                routine, patients have a much greater chance of staying in recovery.</p>
-
-                            <div>
-                                <button className="btn home-service-btn lato-regular">Learn why rewards work
-                                </button>
-                            </div>
-                        </div>
-
-                    </div>
-
+                        ))
+                    }
 
                 </div>
             </div>
