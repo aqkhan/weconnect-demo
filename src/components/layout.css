@@ -40,6 +40,7 @@ body {
     color: white !important;
     text-decoration: none !important;
     padding: 8px 10px;
+    font-weight: 500;
 }
 
 .nav-div ul .nav-btn {
